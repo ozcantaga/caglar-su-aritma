@@ -43,19 +43,19 @@ const { phone, whatsapp,address,socials,googleMapsLink } = config.contact
       </section>
 
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-        <a :href="`tel:+90${phone}`" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
+        <a :href="`tel:+90${phone}`" target="_blank" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
           <i class="fas fa-phone-alt text-3xl text-emerald-400 group-hover:text-slate-900 mb-4 transition-colors"></i>
           <span class="font-bold text-white group-hover:text-slate-900 transition-colors">Hemen Ara</span>
         </a>
-        <a :href="`https://wa.me/${whatsapp}`" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
+        <a :href="`https://wa.me/${whatsapp}`" target="_blank" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
           <i class="fab fa-whatsapp text-3xl text-emerald-400 group-hover:text-slate-900 mb-4 transition-colors"></i>
           <span class="font-bold text-white group-hover:text-slate-900 transition-colors">WhatsApp</span>
         </a>
-        <a :href="`https://www.instagram.com/${socials.instagram}`" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
-          <i class="fab fa-instagram text-3xl text-emerald-400 group-hover:text-slate-900 mb-4 transition-colors"></i>
+        <a :href="`https://www.instagram.com/${socials.instagram}`" target="_blank" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
+          <i class="fab fa-instagram text-3xl text-pink-500 group-hover:text-slate-900 mb-4 transition-colors"></i>
           <span class="font-bold text-white group-hover:text-slate-900 transition-colors">Instagram</span>
         </a>
-        <a :href="`https://www.tiktok.com/@${socials.tiktok}`" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
+        <a :href="`https://www.tiktok.com/@${socials.tiktok}`" target="_blank" class="group flex flex-col items-center p-8 bg-slate-800/40 border border-slate-700 rounded-[2rem] hover:bg-emerald-500 transition-all duration-300">
           <i class="fab fa-tiktok text-3xl text-emerald-400 group-hover:text-slate-900 mb-4 transition-colors"></i>
           <span class="font-bold text-white group-hover:text-slate-900 transition-colors">TikTok</span>
         </a>

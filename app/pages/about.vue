@@ -60,22 +60,22 @@ const testimonials = [
           </div>
           
           <div class="grid grid-cols-2 gap-4">
-            <a :href="`tel:+90${phone}`" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
+            <a :href="`tel:+90${phone}`" target="_blank" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
               <i class="fas fa-phone text-3xl text-emerald-400 mb-4 group-hover:scale-110 transition"></i>
               <div class="text-white font-bold block">Telefon</div>
               <div class="text-xs text-slate-500 mt-1 uppercase tracking-tighter">Hemen Ara</div>
             </a>
-            <a :href="`https://wa.me/${whatsapp}`" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
+            <a :href="`https://wa.me/${whatsapp}`" target="_blank" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
               <i class="fab fa-whatsapp text-3xl text-emerald-500 mb-4 group-hover:scale-110 transition"></i>
               <div class="text-white font-bold block">WhatsApp</div>
               <div class="text-xs text-slate-500 mt-1 uppercase tracking-tighter">7/24 Destek</div>
             </a>
-            <a :href="`https://www.instagram.com/${socials.instagram}`" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
+            <a :href="`https://www.instagram.com/${socials.instagram}`" target="_blank" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
               <i class="fab fa-instagram text-3xl text-pink-500 mb-4 group-hover:scale-110 transition"></i>
               <div class="text-white font-bold block">Instagram</div>
               <div class="text-xs text-slate-500 mt-1 uppercase tracking-tighter">Bizi Takip Et</div>
             </a>
-            <a :href="`mailto:${email}`" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
+            <a :href="`mailto:${email}`" target="_blank" class="group p-8 bg-slate-800/30 border border-slate-700/50 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 text-center">
               <i class="fas fa-envelope text-3xl text-blue-400 mb-4 group-hover:scale-110 transition"></i>
               <div class="text-white font-bold block">E-Posta</div>
               <div class="text-xs text-slate-500 mt-1 uppercase tracking-tighter">Teklif Al</div>
