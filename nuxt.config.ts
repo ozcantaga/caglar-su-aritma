@@ -83,8 +83,13 @@ app: {
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
-  css: ['@/assets/css/main.css'],
+  
+  modules: [
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/tailwindcss'
+  ],
+  css: ['~/assets/css/main.css'],
+  
   postcss: {
     plugins: {
       tailwindcss: {},

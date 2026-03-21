@@ -8,7 +8,13 @@ export default {
     './nuxt.config.{js,ts}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // 'sans' anahtarını değiştirerek varsayılan fontu setliyoruz
+        sans: ['"SeninFontAdin"', 'sans-serif'],
+        display: ['Montserrat', 'sans-serif'], // Özel başlık sınıfı
+      },
+    },
   },
   plugins: [],
 }
