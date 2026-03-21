@@ -70,10 +70,14 @@ const { phone, whatsapp,address,socials,googleMapsLink } = config.contact
         </div>
         <div class="rounded-[3rem] overflow-hidden border border-slate-700/50 shadow-2xl bg-slate-900 group">
           <iframe 
-              :src="googleMapsLink" 
-              width="100%" height="450" style="border:0; filter: invert(90%) hue-rotate(180deg) brightness(95%);" 
-               loading="lazy"
-            ></iframe>
+    :src="googleMapsLink" 
+    width="100%" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
         </div>
       </section>
     </main>
