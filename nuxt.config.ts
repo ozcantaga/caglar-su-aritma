@@ -22,6 +22,7 @@ app: {
         lang: 'tr'
       },
       meta: [
+        { name: 'google-site-verification', content: 'google-site-verification=FK59ISLA9p1KN26s3n73Ooyac5g0hWbIgbEJZPDE6Lc' }
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Pazarcık Çağlar Su Arıtma: Pazarcık ve Kahramanmaraş bölgesinde kaliteli su arıtma cihazları, filtre değişimi ve teknik servis hizmetleri için hemen ulaşın.' },
